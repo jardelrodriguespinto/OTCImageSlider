@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Image Slider</title>
+        <meta name="description" content="Image Slider">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+            <section class="container">
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 1 / 10</div>
+                    <img src="imagens/bandeira.jpeg" alt="bandeira de Otacílio Costa">
+                    <div class="descricao">Bandeira de Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 2 / 10</div>
+                    <img src="imagens/localidade.jpeg" alt="Localização de Otacílio Costa">
+                    <div class="descricao">localização</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 3 / 10</div>
+                    <img src="imagens/centro-administrativo.jpeg" alt="Centro Administrativo de Otacílio Costa">
+                    <div class="descricao">Centro Administrativo de Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 4 / 10</div>
+                    <img src="imagens/portal.jpeg" alt="Portal de Otacílio Costa">
+                    <div class="descricao">Portal de Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 5 / 10</div>
+                    <img src="imagens/avenida-olinkraft.jpeg" alt="Avenida Olinkraft">
+                    <div class="descricao">Avenida Olinkraft</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 6 / 10</div>
+                    <img src="imagens/geada.jpeg" alt="Geada em Otacílio Costa">
+                    <div class="descricao">Geada em Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 7 / 10</div>
+                    <img src="imagens/praca.jpeg" alt="Praça de Otacílio Costa">
+                    <div class="descricao">Praça de Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 8 / 10</div>
+                    <img src="imagens/pista-de-skate.jpeg" alt="Pista de skate de Otacílio Costa">
+                    <div class="descricao">Pista de skate de Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 9 / 10</div>
+                    <img src="imagens/rodoviaria.jpeg" alt="Rodoviária de Otacílio Costa">
+                    <div class="descricao">Rodoviária de Otacílio Costa</div>
+                </div>
+                <div class="meusSlides fade">
+                    <div class="numeroDoTexto"> 1 / 10</div>
+                    <img src="imagens/por-do-sol.jpeg" alt="Pôr do sol">
+                    <div class="descricao">Pôr do sol</div>
+                </div>
+                <!-- Botões próximo e anterior -->
+                <button class="proximo" onclick="sliderProximo(1)">&#10095;</button>
+                <button class="anterior" onclick="sliderProximo(-1)">&#10094;</button>
+                <!-- Pontos que iram embaixo dos sliders-->
+                <br>
+                <div class="pontos">
+                    <span class="ponto" onclick="slideAtual(1)"></span>
+                    <span class="ponto" onclick="slideAtual(2)"></span>
+                    <span class="ponto" onclick="slideAtual(3)"></span>
+                    <span class="ponto" onclick="slideAtual(4)"></span>
+                    <span class="ponto" onclick="slideAtual(5)"></span>
+                    <span class="ponto" onclick="slideAtual(6)"></span>
+                    <span class="ponto" onclick="slideAtual(7)"></span>
+                    <span class="ponto" onclick="slideAtual(8)"></span>
+                    <span class="ponto" onclick="slideAtual(9)"></span>
+                    <span class="ponto" onclick="slideAtual(10)"></span>
+                </div>
+            </section>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
